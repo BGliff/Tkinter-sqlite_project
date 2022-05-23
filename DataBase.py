@@ -55,7 +55,6 @@ class DataBase:
                              f"age = '{user.age}',"
                              f"cash = '{user.cash}'"
                              f"WHERE login = '{user.login}'")
-            print('aaaaaaaaaaaa')
         self.db.commit()
 
 
